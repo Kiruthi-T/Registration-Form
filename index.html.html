@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task form</title>
+</head>
+
+<body>
+    <center>
+        <div height="100vh" width="100vw">
+            <form>
+                <u>
+                    <h2>Registration Form</h2>
+                </u>
+                <br>
+                <label for="name">First Name&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;</label>
+                <input type="text" id="name"required>
+                <br><br>
+                <label for="lname">Last Name&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;</label>
+                <input type="text" id="lname">
+                <br><br>
+                <label for="nname">Nick Name&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;</label>
+                <input type="text" id="nname">
+                <br><br>
+                <label for="mail">e-mail&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;</label>
+                <input type="email" id="mail" required>
+                <br><br>
+                <label for="password">password&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;</label>
+                <input type="password" id="password" required>
+                <br><br>
+                <label>Date of
+                    birth&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="date" required>
+                <br><br>
+                <label>Gender&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female
+                <input type="radio" name="gender">Other
+                <br><br>
+                <label>Mobile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;</label>
+                <input type="tel" required>
+                <br><br>
+                <label>Address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;</label>&nbsp;
+                <textarea></textarea><br><br>
+                <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;insert your photo&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="file">
+                <br><br>
+                <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;insert your Resume&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;</label>&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="file">
+                <br><br>
+                <label>Security Queestion&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input list="list" value="your pet name">
+                <datalist id="list">
+                    <option>your date of birth</option>
+                    <option>your high school name</option>
+                    <option>your pet name</option>
+                </datalist><br><br>
+                <textarea></textarea><br>
+                <input type="checkbox" required>I agree terms and conditions
+                <br>
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="submit">&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="reset">
+            </form>
+        </div>
+    </center>
+</body>
+
+</html>
